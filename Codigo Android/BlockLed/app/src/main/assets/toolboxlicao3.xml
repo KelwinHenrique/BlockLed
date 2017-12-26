@@ -1,0 +1,130 @@
+<toolbox>
+
+    <variables>
+        <variable type="" id="f.l$,lRA@GtHyB.XX!h1">lampada1</variable>
+        <variable type="" id="x.~`dXNl%VWT{N`ch|jM">lampada2</variable>
+        <variable type="" id="`4Pb4}.{OoZ[6Q:(6W:`">lampada3</variable>
+        <variable type="" id="t8ug?X:bmeVMO?J8`W(k">lampada4</variable>
+        <variable type="" id="Z-:mWI/.(hsFw^xUOlWK">lampada5</variable>
+        <variable type="" id="RD^x]nFlsGzwkdEA0d`V">lampada6</variable>
+        <variable type="" id="lF]XN=eeETl.YF{wl^*J">tempo</variable>
+        <variable type="" id="J_Zp;K:[a,WR^iIW1$#%">chave1</variable>
+        <variable type="" id="v#?W6O9o=M_xKur?i@$z">chave2</variable>
+        <variable type="" id="a)Jf4pe!(YfB/,eOh/wO">chave3</variable>
+        <variable type="" id="K^`p:$aafM,*Pxr$!@-!">chave4</variable>
+    </variables>
+    <category name="Váriaveis">
+        <block type="variables_set" id="7iy#Bado(j4N9ots`Y:z" x="37" y="-88">
+            <field name="VAR" id="f.l$,lRA@GtHyB.XX!h1" variabletype="">lampada1</field>
+            <value name="VALUE">
+                <block type="logic_boolean" id=".D`CG@i/Wu.|(w$nTwTg">
+                    <field name="BOOL">TRUE</field>
+                </block>
+            </value>
+        </block>
+        <block type="variables_set" id="O~K7/tm]$`U=xMLA7T#c" x="37" y="-12">
+            <field name="VAR" id="x.~`dXNl%VWT{N`ch|jM" variabletype="">lampada2</field>
+            <value name="VALUE">
+                <block type="logic_boolean" id="d}NFzD1aV2{D`im,c(wB">
+                    <field name="BOOL">TRUE</field>
+                </block>
+            </value>
+        </block>
+        <block type="variables_set" id="9oLPE+a+s$i}/(T`~V/m" x="37" y="63">
+            <field name="VAR" id="`4Pb4}.{OoZ[6Q:(6W:`" variabletype="">lampada3</field>
+            <value name="VALUE">
+                <block type="logic_boolean" id=".D8;cCD;?j1x^vv;n,n?">
+                    <field name="BOOL">TRUE</field>
+                </block>
+            </value>
+        </block>
+        <block type="variables_set" id="m5$VATx^:UH!9Va,OlDg" x="37" y="112">
+            <field name="VAR" id="t8ug?X:bmeVMO?J8`W(k" variabletype="">lampada4</field>
+            <value name="VALUE">
+                <block type="logic_boolean" id="+J?l0Uq|0N.[=)!m1Xdj">
+                    <field name="BOOL">TRUE</field>
+                </block>
+            </value>
+        </block>
+        <block type="variables_set" id="[),S!U{`iHszgBjNv!Q=" x="38" y="187">
+            <field name="VAR" id="Z-:mWI/.(hsFw^xUOlWK" variabletype="">lampada5</field>
+            <value name="VALUE">
+                <block type="logic_boolean" id="XG)~[/qwPk*tj^4dB)X#">
+                    <field name="BOOL">TRUE</field>
+                </block>
+            </value>
+        </block>
+        <block type="variables_set" id="ooj!cTZ%GvXd7{|H3H*S" x="37" y="237">
+            <field name="VAR" id="RD^x]nFlsGzwkdEA0d`V" variabletype="">lampada6</field>
+            <value name="VALUE">
+                <block type="logic_boolean" id=";^!PA.Lc`,/DCMd]-tlQ">
+                    <field name="BOOL">TRUE</field>
+                </block>
+            </value>
+        </block>
+        <block type="variables_get" id="4ZZ|!#W%u:C|Hlb3cKgV" x="62" y="288">
+            <field name="VAR" id="f.l$,lRA@GtHyB.XX!h1" variabletype="">lampada1</field>
+        </block>
+        <block type="variables_get" id="5fsp_w@NTRYWe7YSF`Ra" x="63" y="338">
+            <field name="VAR" id="x.~`dXNl%VWT{N`ch|jM" variabletype="">lampada2</field>
+        </block>
+        <block type="variables_get" id="x?@d840L0qo4VryLnOT{" x="63" y="388">
+            <field name="VAR" id="`4Pb4}.{OoZ[6Q:(6W:`" variabletype="">lampada3</field>
+        </block>
+        <block type="variables_get" id="tO0kU;D,M:.dxD94q79I" x="63" y="438">
+            <field name="VAR" id="t8ug?X:bmeVMO?J8`W(k" variabletype="">lampada4</field>
+        </block>
+        <block type="variables_get" id="5ZD4_mQT#@eY#.{p~Is/" x="63" y="488">
+            <field name="VAR" id="Z-:mWI/.(hsFw^xUOlWK" variabletype="">lampada5</field>
+        </block>
+        <block type="variables_get" id=",FURpO2+t4}UQku_K[:l" x="63" y="538">
+            <field name="VAR" id="RD^x]nFlsGzwkdEA0d`V" variabletype="">lampada6</field>
+        </block>
+        <block type="variables_get" id="RFAJF#HKq]ih)]X=D$:b" x="63" y="588">
+            <field name="VAR" id="J_Zp;K:[a,WR^iIW1$#%" variabletype="">chave1</field>
+        </block>
+        <block type="variables_get" id=":5N;F6Nfm6NQ45}4L=lR" x="63" y="638">
+            <field name="VAR" id="v#?W6O9o=M_xKur?i@$z" variabletype="">chave2</field>
+        </block>
+        <block type="variables_get" id="o*pL{J,mMf*X5KI,W:Qn" x="63" y="688">
+            <field name="VAR" id="a)Jf4pe!(YfB/,eOh/wO" variabletype="">chave3</field>
+        </block>
+        <block type="variables_get" id="jVJaU/WoQbIZUl7ZR,Ef" x="62" y="737">
+            <field name="VAR" id="K^`p:$aafM,*Pxr$!@-!" variabletype="">chave4</field>
+        </block>
+        <block type="variables_get" id="(zZi!ysc@(r-5F)1!UqL" x="62" y="787">
+            <field name="VAR" id="lF]XN=eeETl.YF{wl^*J" variabletype="">tempo</field>
+        </block>
+    </category>
+
+    <category name="Repetição">
+        <block type="controls_whileUntil" id="-Es1i;VIwL;,a}1YMx:," x="37" y="112">
+            <field name="MODE">WHILE</field>
+            <value name="BOOL">
+                <block type="logic_compare" id="JYW]0Nc}J6y,E?peF]An">
+                    <field name="OP">EQ</field>
+                    <value name="B">
+                        <block type="logic_boolean" id="l}k$4-f*_^*YF-E6NJQ^">
+                            <field name="BOOL">TRUE</field>
+                        </block>
+                    </value>
+                </block>
+            </value>
+        </block>
+        <block type="controls_whileUntil" id="woKd%|VoRTn~hf~5UPD$" x="37" y="312">
+            <field name="MODE">WHILE</field>
+            <value name="BOOL">
+                <block type="logic_compare" id="W%9MrX-4YnE3TB;Or-Z8">
+                    <field name="OP">EQ</field>
+                    <value name="B">
+                        <block type="math_number" id="!v[mEj?9ty=1wcG;pS)^">
+                            <field name="NUM">0</field>
+                        </block>
+                    </value>
+                </block>
+            </value>
+        </block>
+
+
+    </category>
+</toolbox>

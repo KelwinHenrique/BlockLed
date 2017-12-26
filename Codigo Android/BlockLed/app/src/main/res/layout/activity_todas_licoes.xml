@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.andre.myapplication.MainActivity"
+        android:id="@+id/ly">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tv1"
+            android:text="LIÇÕES"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:layout_below="@+id/tv1"
+            android:text="1- Variáveis"
+            android:textSize="20dp"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv3"
+            android:layout_below="@+id/tv2"
+            android:text="Na programação, uma variável é um objeto (uma posição, frequentemente localizada na memória) capaz de reter e representar um valor ou expressão. Enquanto as variáveis só 'existem' em tempo de execução, elas são associadas a 'nomes', chamados identificadores, durante o tempo de desenvolvimento. \n \t Nossas variáveis são de dois tipos, as booleanas (6 lâmpadas e 4 chaves) que trabalham com apenas dois valores, verdadeiro para quando a lâmpada está ligada e falsa para quando está desligada. O segundo tipo de variáveis são as numéricas, que servem para representar o tempo. \n \t Hora de desenvolver! utilizando os blocos, construa um algoritimo que consiga acender apenas as lâmpadas 2, 4 e 6 e apague as lâmpadas 1, 3 e 5.\n"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            />
+
+        <VideoView
+            android:id="@+id/vv"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_below="@+id/tv3"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvl1"
+            android:layout_below="@+id/vv"
+            android:text="Video exemplo lição 1\n"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            />
+
+        <VideoView
+            android:id="@+id/vvLixeira"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_below="@+id/tvl1"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvl2"
+            android:layout_below="@+id/vvLixeira"
+            android:text="Exemplo como apagar blocos\n"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            />
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:text="LIÇÃO 1"
+            android:onClick="irLicao1"
+            android:background="@android:drawable/editbox_background_normal"
+            android:fontFamily="casual"
+            android:textSize="19dp"
+            android:id="@+id/bt1"
+            android:layout_below="@+id/tvl2"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv4"
+            android:layout_below="@+id/bt1"
+            android:text="2- ESTRUTURA DE SELEÃO (IF)"
+            android:textSize="20dp"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv5"
+            android:layout_below="@+id/tv4"
+            android:text="Utilizamos estruturas de seleção (if) quando existem comandos dentro do programa que somente devem executar se satisfizerem a uma determinada condição. Por exemplo, só aprenderei a programar se estudar.\n \tNa nossa plataforma, as condições podem criar diversas combinações, veja um exemplo abaixo:\n\nSe (chave_1 == verdadeiro) então {\n\tLampada_1 = verdadeiro;\n\tLampada_2 = verdadeiro;\n\tLampada_3 = verdadeiro;\n}\nsenão {\n\tLampada_4 = verdadeiro;\n\tLampada_5 = verdadeiro;\n\tLampada_6 = verdadeiro;\n}\n\n\tCom base nisso, crie um programa que defina um valor para a lâmpada 1 e caso ela esteja acessa, a lâmpada 6 também é acionada.\n"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            />
+
+        <VideoView
+            android:id="@+id/vv1"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_below="@+id/tv5"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:onClick="irLicao2"
+            android:text="LIÇÃO 2"
+            android:id="@+id/bt2"
+            android:background="@android:drawable/editbox_background_normal"
+            android:fontFamily="casual"
+            android:textSize="19dp"
+            android:layout_below="@+id/vv1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv6"
+            android:layout_below="@+id/bt2"
+            android:text="3- ESTRUTURAS DE REPETIÇÃO (WHILE)"
+            android:textSize="20dp"
+            android:fontFamily="monospace"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv7"
+            android:layout_below="@+id/tv6"
+            android:text="A declaração 'enquanto' repete a execução de um bloco de instruções enquanto uma condição for verdadeira. A condição é avaliada antes da execução do bloco de instruções. Quando a condição for avaliada como falsa, a execução continua na próxima linha depois do laço.\n\n enquanto (chave_1 == verdadeiro) faça {\n \t lampada_1 = verdadeiro;\n \t lampada_2 = falso;\n }\n \t lampada_1 = falso;\n \t lampada_2 = verdadeiro;\n \n \t Baseado nisso, crie um programa que enquanto a chave 2 estiver ativa, as lâmpadas pares ficam ativas, caso a chave 2 seja desativada, as lâmpadas impares acendem.\n"
+            android:textSize="17dp"
+            android:fontFamily="monospace"
+            />
+
+
+        <VideoView
+            android:id="@+id/vv2"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_below="@+id/tv7"
+            android:layout_centerHorizontal="true"/>
+
+
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vv2"
+            android:background="@android:drawable/editbox_background_normal"
+            android:fontFamily="casual"
+            android:text="Lição 3"
+            android:textSize="19dp"
+            android:onClick="irLicao3"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

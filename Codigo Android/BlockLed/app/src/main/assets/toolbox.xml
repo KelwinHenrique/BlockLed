@@ -1,0 +1,20 @@
+<toolbox>
+  <category name="Variáveis" colour="210">
+    <variables>
+      <variable type="" id="l}yQj+9bpxr1p50i1f^)">luz1</variable>
+    </variables>
+    <block type="variables_set" id="[~]E{=o-gjVkc?-,X=7}" x="188" y="112">
+      <field name="VAR" id="l}yQj+9bpxr1p50i1f^)" variabletype="">luz1</field>
+      <value name="VALUE">
+        <block type="logic_boolean" id="o:EhQTarCFn8#K@79fre">
+          <field name="BOOL">TRUE</field>
+        </block>
+      </value>
+    </block>
+  </category>
+  <category name="Lógica">
+    <block type="logic_compare"></block>
+    <block type="logic_operation"></block>
+    <block type="logic_boolean"></block>
+  </category>
+</toolbox>
